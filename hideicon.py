@@ -9,10 +9,12 @@ class key(object):
         super(key, self).__init__()
     def showicon(self):
         run_cmd(' hidetrayicon 1 show 运气修仙')
-        print('已显示')
+        now_time = time.asctime() 
+        print(f'INFO {now_time}   已显示')
     def hideicon(self):
         run_cmd('hidetrayicon 1 hide 运气修仙')
-        print('已隐藏')
+        now_time = time.asctime() 
+        print(f'INFO {now_time}   已隐藏')
 
 
     def testing(self):
