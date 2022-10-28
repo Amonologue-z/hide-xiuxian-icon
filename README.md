@@ -15,6 +15,8 @@ pip install keyboard
 在hideicon.py把里面的快捷键换成自己想要的(也可以不换)
 运行即可
 
+或者直接运行hideicon.exe
+
 默认是alt+w 隐藏托盘图标
 
 alt+e 显示图标
